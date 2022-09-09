@@ -1,15 +1,21 @@
 #include <stdio.h>
 /**
- * main - entry block
- * description - prints the lowercase alphabet in reverse
- * Return: 0
- **/
-int main(void)
-{
-	char c;
+ *main - Entry poiny
+ *
+ *Return: Always 0 (Success)
+ */
 
-	for (c = 'z' ; c >= 'a'; c--)
-		putchar(c);
+	int main(void)
+
+{
+	char alphabet;
+
+	for (alphabet = 122 ; alphabet >= 97; alphabet--)
+
+	{
+		putchar(alphabet);
+	}
 	putchar('\n');
+
 	return (0);
 }

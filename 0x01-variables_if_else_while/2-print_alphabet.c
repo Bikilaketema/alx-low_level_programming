@@ -1,15 +1,21 @@
 #include <stdio.h>
 /**
- * main - Printthe alphabetic
- * a program that prints the alphabet in lowwercase, followed by a new line.
- * Return: Always (success)
+ * main - Entry point
+ *
+ * Return: Always 0 (Seccess/correct)
  */
 int main(void)
-{
-	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	putchar('\n');
-	return (0);
+{
+char alphabet;
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
+putchar(alphabet);
+}
+
+putchar('\n');
+
+return (0);
+
 }
