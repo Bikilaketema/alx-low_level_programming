@@ -1,17 +1,17 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * _isalpha - Entry point
- * @c: the integer value it receives
- * Description: checks if alphabet
- * Return: 1 if true. 0 if false
+ * _isalpha - checks for alphabetic character
+ * @c: c is an ascii character
+ *
+ * Return: 1 (if letter)
  */
 
 int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-	return (1);
+		return (1);
 	}
 	else if (c >= 'A' && c <= 'Z')
 	{
