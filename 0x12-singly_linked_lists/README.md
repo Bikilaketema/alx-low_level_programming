@@ -1,1 +1,1 @@
-Singly linkes lists task.
+C - Singly linked lists
