@@ -1,1 +1,1 @@
-Doubly linked list in C programming for recap.
+Done with the doubly linked list in C
